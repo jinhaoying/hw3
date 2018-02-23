@@ -1,10 +1,11 @@
 stroke(0);
 strokeWeight(2);
- 
+
 function draw(){
+	background(255);
 	for (i = 0; i < 18; i ++) {
   	gap = 55 + i*15;
-  	line(mouseX, mouseY, gap, 320)
+  	line(mouseX, mouseY, gap, 320);
 	}
 }
 
@@ -60,6 +61,7 @@ stroke(0);
 strokeWeight(2);
 
 function draw(){
+	background(255);
   	line(mouseX, mouseY, 55, 320)
     line(mouseX, mouseY, 70, 320)
     line(mouseX, mouseY, 85, 320)
